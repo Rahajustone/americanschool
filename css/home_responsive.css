@@ -104,7 +104,7 @@ Email: developermamunurrashid@gmail.com
     }
 
 }
-@media (min-height: 600px) {
+@media (max-width: 1199px) and (min-height: 600px) {
     .home-container .plate:nth-of-type(1) {
         top: -300%;
     }
