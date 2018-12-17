@@ -214,6 +214,7 @@ body {
     -webkit-transition-delay: 0s;
     -moz-transition-delay: 0s;
     transition-delay: 0s;
+    display: none;
 }
 
 .plate:nth-of-type(2) {
@@ -238,6 +239,7 @@ body {
     -webkit-transition-delay: 0.4s;
     -moz-transition-delay: 0.4s;
     transition-delay: 0.4s;
+    /*display: none;*/
 }
 
 .plate:nth-of-type(6) {
