@@ -42,6 +42,18 @@ body {
     background-color: transparent;
     color: white;
 }
+.top .sociallink {
+    /*box-shadow: 2px 2px 2px 2px #fff;*/
+    border: 2px solid #fff;
+    background-color: #fff;
+    border-radius: 50%;
+    margin-left: 5px;
+    margin-top: 3px;
+    padding: 2px 5px 2px 3px;
+}
+.top .sociallink .fa {
+    color: rgba(37, 54, 110);
+}
 
 /* Navigation Bar */
 /* Link text */
