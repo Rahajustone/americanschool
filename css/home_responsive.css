@@ -6,6 +6,26 @@ Email: developermamunurrashid@gmail.com
 
 */
 @media (min-width: 1199px) and (max-width: 1440px) {
+    .home-container {
+        width: 75px;
+        height: 75px;
+    }
+
+    .home-container {
+        width: 70px;
+        height: 70px;
+    }
+
+    .plate {
+        width: 60px;
+        height: 60px;
+    }
+
+    .plate i {
+        width: 100%;
+        font-size: 1.5em;
+        line-height: 60px;
+    }
     .home-container .plate {
         opacity: 1;
     }
