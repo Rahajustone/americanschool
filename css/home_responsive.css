@@ -31,39 +31,39 @@ Email: developermamunurrashid@gmail.com
     }
 
     .home-container .plate:nth-of-type(1) {
-        top: -600%;
+        top: -700%;
     }
 
     .home-container .plate:nth-of-type(2) {
-        top: -420%;
-        right: -420%;
+        top: -520%;
+        right: -520%;
     }
 
     .home-container .plate:nth-of-type(3) {
-        right: -600%;
+        right: -700%;
     }
 
     .home-container .plate:nth-of-type(4) {
-        right: -420%;
-        bottom: -420%;
+        right: -520%;
+        bottom: -520%;
     }
 
     .home-container .plate:nth-of-type(5) {
-        bottom: -600%;
+        bottom: -700%;
     }
 
     .home-container .plate:nth-of-type(6) {
-        bottom: -420%;
-        left: -420%;
+        bottom: -520%;
+        left: -520%;
     }
 
     .home-container .plate:nth-of-type(7) {
-        left: -600%;
+        left: -700%;
     }
 
     .home-container .plate:nth-of-type(8) {
-        top: -420%;
-        left: -420%;
+        top: -520%;
+        left: -520%;
     }
     .footer-call {
         right:  15%;
