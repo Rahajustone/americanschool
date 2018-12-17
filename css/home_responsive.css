@@ -59,7 +59,21 @@ Email: developermamunurrashid@gmail.com
     .top .col-md-2 {
         padding: 0px;
     }
+    .home-container {
+        width: 65px;
+        height: 65px;
+    }
 
+    .plate {
+        width: 60px;
+        height: 60px;
+    }
+
+    .plate i {
+        width: 100%;
+        font-size: 2.5em;
+        line-height: 70px;
+    }
     .home-container .plate {
         opacity: 1;
     }
@@ -103,64 +117,19 @@ Email: developermamunurrashid@gmail.com
         right:  20%;
     }
 
+
 }
 
 
 @media (min-width: 768px) and (max-width: 992px) {
-    .top .col-md-8 {
-        padding: 0px;
-    }
-    .top .col-md-2 {
-        padding: 0px;
-    }
-
-    .home-container .plate {
-        opacity: 1;
-    }
-
-    .home-container .plate:nth-of-type(1) {
-        top: -450%;
-    }
-
-    .home-container .plate:nth-of-type(2) {
-        top: -270%;
-        right: -270%;
-    }
-
-    .home-container .plate:nth-of-type(3) {
-        right: -450%;
-    }
-
-    .home-container .plate:nth-of-type(4) {
-        right: -270%;
-        bottom: -270%;
-    }
-
-    .home-container .plate:nth-of-type(5) {
-        bottom: -450%;
-    }
-
-    .home-container .plate:nth-of-type(6) {
-        bottom: -270%;
-        left: -270%;
-    }
-
-    .home-container .plate:nth-of-type(7) {
-        left: -450%;
-    }
-
-    .home-container .plate:nth-of-type(8) {
-        top: -270%;
-        left: -270%;
-    }
     .home-container {
-        width: 80px;
-        height: 80px;
+        width: 60px;
+        height: 60px;
     }
 
     .plate {
-        width: 70px;
-        height: 70px;
+        width: 50px;
+        height: 50px;
     }
 
     .plate i {
