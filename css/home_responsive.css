@@ -46,7 +46,6 @@ Email: developermamunurrashid@gmail.com
         left: -320%;
     }
     .footer-call {
-        bottom: 220px;
         right:  15%;
     }
 
@@ -98,6 +97,9 @@ Email: developermamunurrashid@gmail.com
     .home-container .plate:nth-of-type(8) {
         top: -270%;
         left: -270%;
+    }
+    .footer-call {
+        right:  20%;
     }
 
 }
