@@ -74,6 +74,10 @@ Email: developermamunurrashid@gmail.com
         right: 45px;
         bottom: -2px;
     }
+    .link-text-down {
+        top: 65px;
+        left: -20px;
+    }
 
     .footer-call {
         right:  15%;
