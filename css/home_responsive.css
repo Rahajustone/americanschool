@@ -26,9 +26,6 @@ Email: developermamunurrashid@gmail.com
         font-size: 1.5em;
         line-height: 60px;
     }
-    .home-container .plate {
-        opacity: 1;
-    }
 
     .home-container .plate:nth-of-type(1) {
         top: -700%;
@@ -151,6 +148,20 @@ Email: developermamunurrashid@gmail.com
         top: -340%;
         left: -340%;
     }
+    .link-text-right {
+        left: 60px;
+        bottom: -10px;
+    }
+    .link-text-down {
+        top: 56px;
+        left: -25px;
+    }
+    .link-text-left {
+        right: 60px;
+        bottom: -5px;
+        text-align: right;
+    }
+
     .footer-call {
         right:  20%;
     }
