@@ -171,6 +171,11 @@ Email: developermamunurrashid@gmail.com
 
 
 @media (min-width: 768px) and (max-width: 992px) {
+    .top  .nav {
+
+    }
+
+
     .home-container {
         width: 60px;
         height: 60px;
@@ -187,6 +192,25 @@ Email: developermamunurrashid@gmail.com
         line-height: 50px;
     }
 
+    .link-text-right {
+        left: 60px;
+        bottom: -5px;
+    }
+
+    .link-text-down {
+        top: 60px;
+        left: -20px;
+    }
+
+    .link-text-left {
+        right: 60px;
+        bottom: -3px;
+        text-align: right;
+    }
+
+    .footer-call {
+        right:  20%;
+    }
 }
 
 @media(max-width: 768px) {
