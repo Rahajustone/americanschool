@@ -65,9 +65,20 @@ Email: developermamunurrashid@gmail.com
         top: -520%;
         left: -520%;
     }
+
+    .link-text-right {
+        left: 70px;
+        bottom: 2px;
+    }
+    .link-text-left {
+        right: 45px;
+        bottom: -2px;
+    }
+
     .footer-call {
         right:  15%;
     }
+
 
 }
 
