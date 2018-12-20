@@ -242,6 +242,10 @@ Email: developermamunurrashid@gmail.com
         top: 1%;
         background-size: 60%;
     }
+
+    .instagram {
+        margin-top: -10%;
+    }
    
 }
 
@@ -283,6 +287,12 @@ Email: developermamunurrashid@gmail.com
         bottom: 20%;
         left: 30px;
         width: 100px;
+    }
+    .instagram {
+        margin-top: -20%;
+    }
+    .instagram .h1 {
+        font-size: 2rem;
     }
 
 }
@@ -331,9 +341,15 @@ Email: developermamunurrashid@gmail.com
         padding: .84rem 1.14rem;
         font-size: .81rem;
     }
+    .instagram {
+        margin-top: -80%;
+    }
+    .instagram .h1 {
+        font-size: 1.7rem;
+    }
 }
 @media(max-width:370px) {
-     .navbar-menu {
+    .navbar-menu {
         top: -30%;
         background-size: 100%;
     }
@@ -356,5 +372,18 @@ Email: developermamunurrashid@gmail.com
         padding: .84rem 1.14rem;
         font-size: .81rem;
     }
-    
+    .instagram {
+        margin-top: -120%;
+    }
+    .instagram .h1 {
+        font-size: 1.5rem;
+    }
+}
+@media(max-width:200px) {
+    .instagram {
+        margin-top: -200%;
+    }
+    .instagram .h1 {
+        font-size: 1rem;
+    }
 }
