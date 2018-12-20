@@ -2699,11 +2699,14 @@ footer.footer-social-icon {
 /* Navbar  */
 .top {
     background-color: rgba(37, 54, 110, 0.9);
-    /*background-color:  rgba(255, 255, 255);*/
     position: fixed;
     width: 100%;
     top: 0px;
+    padding-left: 0px;
 
+}
+.top .col {
+    padding: 0px;
 }
 .top .fa {
     background-color: transparent;
@@ -2712,52 +2715,12 @@ footer.footer-social-icon {
 .text-top-social {
     margin-left: 2%;
 }
-.w3social-icons.w3lsnav-right {
-    float: right;
-    margin-top: 0.5em;
-    margin-bottom:  0.5em;
+.top .breadcum {
 }
-.w3social-icons ul {
-    margin: 0;
-    padding: 0;
-}
-.w3social-icons ul li {
-    display: inline-block;
-    margin: 0 0.5em;
-}
-.w3social-icons.w3lsnav-right ul li a {
-    color: #999;
-    border: 1px solid;
-}
-.w3social-icons ul li a {
-    color: #fff;
-    font-size: 1.1em;
-    display: block;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    border-radius: 50%;
-    -webkit-box-shadow: 0px 0px 1px 1px #fff;
-    -moz-box-shadow: 0px 0px 1px 1px #fff;
-    box-shadow: 0px 0px 1px 1px #fff;
-    width: 25px;
-    height: 25px;
-    text-align: center;
-    line-height: 1.2em;
-}
-.flag-icon {
-    /*border-radius: 50%;*/
-}
-.top-breadcum {
-    /*background-color: red;*/
-    /*padding: 0px;*/
-}
-.top-breadcum .breadcrumb{
-    border-top: 1px solid #ccc;
-    border-radius: 0px;
+.top .breadcrumb{
     background-color: transparent;
     padding-bottom: 0px;
-    /*margin-bottom: 0px;*/
 }
-.top-breadcum .breadcrumb .breadcrumb-item a {
+.top .breadcrumb .breadcrumb-item a {
     color: #fff;
 }
