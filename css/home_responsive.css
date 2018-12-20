@@ -113,23 +113,248 @@ Email: developermamunurrashid@gmail.com
 
 
 @media (min-width: 768px) and (max-width: 992px) {
-   
+    .top .col, .top .col-md-8 {
+        padding: 0px;
+    }
+
+    .nav-link, .navbar {
+        padding: .5rem 0.5rem;
+    }
+
+    .navbar-menu {
+        top: 1%;
+        background-size: 70%;
+    }
+    .home-container {
+
+    }
+
+    .plate {
+        width: 60px;
+        height: 60px;
+        opacity: 0;
+    }
+
+    .plate i {
+        font-size: 1.5em;
+        width: 100%;
+        line-height: 60px;
+    }
+    .home-container .plate:nth-of-type(1) {
+        top: -55%;
+        right: -35%;
+    }
+
+    .home-container .plate:nth-of-type(2) {
+        top: -6%;
+        right: -70%;
+    }
+
+    .home-container .plate:nth-of-type(3) {
+        top: 55%;
+        right: -55%;
+    }
+
+    .home-container .plate:nth-of-type(4) {
+        top: -55%;
+        left: -35%;
+    }
+
+    .home-container .plate:nth-of-type(5) {
+        top: -6%;
+        left: -70%;
+    }
+
+    .home-container .plate:nth-of-type(6) {
+        top: 55%;
+        left: -55%;
+    }
+
+    .link-text-right {
+        bottom: 18px;
+    }
+
+    .link-text-left {
+        bottom: 18px;
+    }
+
+    .footer-call {
+        bottom: 120px;
+        right: 6%;
+    }
+
+    .phonering-alo-ph-circle {
+        width: 140px;
+        height: 140px;
+    }
+
+    .phonering-alo-ph-circle-fill {
+        width: 80px;
+        height: 80px;
+    }
+
+    .phonering-alo-ph-img-circle {
+        width: 40px;
+        height: 40px;
+        background-size: 25px 25px;
+    }
+
+    .calltext {
+        bottom: 20%;
+        left: 30px;
+        width: 100px;
+    }
 }
 
 @media(max-width: 768px) {
+    .top .col, .top .col-md-8 {
+        padding: 0px;
+    }
 
+    .nav-link, .navbar {
+        padding: .5rem 0.5rem;
+    }
+    .top .navbar-toggler {
+        background-color: rgba(243, 211, 150, 1);;
+        padding: .40rem .75rem;
+        font-size: 1.25rem;
+        line-height: 1;
+        border: 1px solid transparent;
+        border-radius: 0em;
+        margin-right: 20px;
+    }
+    .top .navbar-toggler .fa {
+        color: rgb(37, 54, 110);
+    }
+    .top .navbar-nav {
+        border-top: 1px solid #fff;
+    }
+    .top .navbar-nav li {
+        text-align: center;
+        border-bottom: 1px solid #fff;
+    }
+    .top .navbar-nav li a {
+        color: #fff;
+        text-align: left;
+    }
+
+    .navbar-menu {
+        top: 1%;
+        background-size: 60%;
+    }
    
 }
 
 @media (min-width: 576px) and (max-width: 767px) {
-   
+   .navbar-menu {
+        top: -10%;
+        background-size: 100%;
+    }
+
+    .home-container {
+
+    }
+
+    .plate {
+        display: none;
+    }
+    .footer-call {
+        bottom: 120px;
+        right: 6%;
+    }
+
+    .phonering-alo-ph-circle {
+        width: 140px;
+        height: 140px;
+    }
+
+    .phonering-alo-ph-circle-fill {
+        width: 80px;
+        height: 80px;
+    }
+
+    .phonering-alo-ph-img-circle {
+        width: 40px;
+        height: 40px;
+        background-size: 25px 25px;
+    }
+
+    .calltext {
+        bottom: 20%;
+        left: 30px;
+        width: 100px;
+    }
 
 }
 
 @media(max-width:576px) {
+    .navbar-menu {
+        top: -20%;
+        background-size: 100%;
+    }
 
+    .plate {
+        display: none;
+    }
+
+    .footer-call {
+        bottom: 120px;
+        right: 6%;
+    }
+
+    .phonering-alo-ph-circle {
+        width: 140px;
+        height: 140px;
+    }
+
+    .phonering-alo-ph-circle-fill {
+        width: 80px;
+        height: 80px;
+    }
+
+    .phonering-alo-ph-img-circle {
+        width: 40px;
+        height: 40px;
+        background-size: 25px 25px;
+    }
+
+    .calltext {
+        bottom: 30%;
+        left: 30px;
+        width: 100px;
+        font-size: 0.8em;
+    }
+
+    .login-btn {
+        -webkit-border-radius: 50%;
+        border-radius: 50%;
+        padding: .84rem 1.14rem;
+        font-size: .81rem;
+    }
 }
 @media(max-width:370px) {
-    
+     .navbar-menu {
+        top: -30%;
+        background-size: 100%;
+    }
+
+    .footer-call {
+        bottom: 120px;
+        right: 8%;
+    }
+
+    .calltext {
+        bottom: 30%;
+        left: 30px;
+        width: 100px;
+        font-size: 0.8em;
+    }
+
+    .login-btn {
+        -webkit-border-radius: 50%;
+        border-radius: 50%;
+        padding: .84rem 1.14rem;
+        font-size: .81rem;
+    }
     
 }

@@ -111,6 +111,7 @@ body {
     -moz-transition: all 0.4s ease-in;
     transition: all 0.4s ease-in;
     background-color: rgba(243, 211, 150, 1);
+    text-transform: capitalize;
 
 }
 
@@ -299,7 +300,7 @@ body {
     position: fixed;
     right: 1%;
     top: 10%;
-    /*bottom: 220px;*/
+    z-index: 99;
 
 }
 
