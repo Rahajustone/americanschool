@@ -162,6 +162,9 @@ body {
 .plate:hover {
     background-color: #25366e;
 }
+.plate:hover .link-text {
+    font-weight: bold;
+} 
 
 .link-text {
     width: 100px;
@@ -764,76 +767,27 @@ body {
     }
 }
 
-.login .phonering-alo-ph-img-circle {
-    background: none;
-    animation: none;
-    
-}
-.login .phonering-alo-ph-img-circle .fa {
-    line-height: 60px;
-    color: #fff;
-    text-align: center;
-    margin-left: 15px;
-    /*-webkit-animation: slideInLeft 2.3s infinite ease-in-out;
-    animation: slideInLeft 2.3s infinite ease-in-out;*/
-}
-
-@keyframes slideInLeft {
-  80% {
-    opacity: 0.5;
-    -webkit-transform: translateX(10px);
-    -ms-transform: translateX(10px);
-    transform: translateX(10px);
-  }
-
-  /*100% {
-    -webkit-transform: translateX(0);
-    -ms-transform: translateX(0);
-    transform: translateX(0);
-  }*/
-}
-@keyframes bounceInLeft {
- /* 0% {
-    opacity: 0;
-    -webkit-transform: translateX(-2000px);
-    -ms-transform: translateX(-2000px);
-    transform: translateX(-2000px);
-  }
-
-  60% {
-    opacity: 1;
-    -webkit-transform: translateX(30px);
-    -ms-transform: translateX(30px);
-    transform: translateX(30px);
-  }*/
-
-  80% {
-    -webkit-transform: translateX(-10px);
-    -ms-transform: translateX(-10px);
-    transform: translateX(-10px);
-  }
-
-  100% {
-    -webkit-transform: translateX(0);
-    -ms-transform: translateX(0);
-    transform: translateX(0);
-  }
-}
-
 
 
 
 .calltext {
+    position: relative;
+    text-align: center;
+    bottom: 20%;
+    left: 20px;
+    width: 100px;
     font-style: 0.8em;
-    font-weight: 400;
+    font-weight: bold;
     color: #25366e;
-    margin-bottom: 0px;
-    /*position: absolute;*/
+    margin-bottom: -10px;
 }
 
 /* Inst5agram feeds */
 .instagram {
-    margin-top: 25%;
+    margin-top: 10%;
 
 
+}
+.footer {
+    background-color: #25366e;
 }

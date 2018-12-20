@@ -6,287 +6,123 @@ Email: developermamunurrashid@gmail.com
 
 */
 @media (min-width: 1199px) and (max-width: 1440px) {
-    .home-container {
-        width: 75px;
-        height: 75px;
+    .navbar-menu {
+        top: 5%;
+        background-size: 70%;
     }
-
-    .home-container {
-        width: 70px;
-        height: 70px;
-    }
-
-    .plate {
-        width: 60px;
-        height: 60px;
-    }
-
-    .plate i {
-        width: 100%;
-        font-size: 1.5em;
-        line-height: 60px;
-    }
-
-    .home-container .plate:nth-of-type(1) {
-        top: -700%;
-    }
-
-    .home-container .plate:nth-of-type(2) {
-        top: -520%;
-        right: -520%;
-    }
-
-    .home-container .plate:nth-of-type(3) {
-        right: -700%;
-    }
-
-    .home-container .plate:nth-of-type(4) {
-        right: -520%;
-        bottom: -520%;
-    }
-
-    .home-container .plate:nth-of-type(5) {
-        bottom: -700%;
-    }
-
-    .home-container .plate:nth-of-type(6) {
-        bottom: -520%;
-        left: -520%;
-    }
-
-    .home-container .plate:nth-of-type(7) {
-        left: -700%;
-    }
-
-    .home-container .plate:nth-of-type(8) {
-        top: -520%;
-        left: -520%;
-    }
-
-    .link-text-right {
-        left: 70px;
-        bottom: 2px;
-    }
-    .link-text-left {
-        right: 70px;
-        bottom: -2px;
-        text-align: right;
-    }
-    .link-text-down {
-        top: 65px;
-        left: -20px;
-    }
-
-    .footer-call {
-        right:  15%;
-    }
-
-
+   
 }
 
 
 @media (min-width: 992px) and (max-width: 1199px) {
-    .top .col-md-8 {
+    /* Navigation Bar */
+    .top .col {
         padding: 0px;
     }
-    .top .col-md-2 {
-        padding: 0px;
-    }
-    .home-container {
-        width: 65px;
-        height: 65px;
+    .top .nav {
+        
     }
 
+    .navbar-menu {
+        top: 5%;
+        background-size: 60%;
+    }
     .home-container {
-        width: 60px;
-        height: 60px;
+
     }
 
     .plate {
-        width: 50px;
-        height: 50px;
+        width: 70px;
+        height: 70px;
+        opacity: 0;
     }
 
     .plate i {
-        width: 100%;
-        font-size: 1.5em;
-        line-height: 50px;
+        font-size: 1.8em;
     }
-
     .home-container .plate:nth-of-type(1) {
-        top: -520%;
+        top: -55%;
+        right: -50%;
     }
 
     .home-container .plate:nth-of-type(2) {
-        top: -340%;
-        right: -340%;
+        top: -6%;
+        right: -85%;
     }
 
     .home-container .plate:nth-of-type(3) {
-        right: -520%;
+        top: 55%;
+        right: -70%;
     }
 
     .home-container .plate:nth-of-type(4) {
-        right: -340%;
-        bottom: -340%;
+        top: -55%;
+        left: -50%;
     }
 
     .home-container .plate:nth-of-type(5) {
-        bottom: -520%;
+        top: -6%;
+        left: -85%;
     }
 
     .home-container .plate:nth-of-type(6) {
-        bottom: -340%;
-        left: -340%;
+        top: 55%;
+        left: -70%;
     }
 
-    .home-container .plate:nth-of-type(7) {
-        left: -520%;
-    }
-
-    .home-container .plate:nth-of-type(8) {
-        top: -340%;
-        left: -340%;
-    }
     .link-text-right {
-        left: 60px;
-        bottom: -10px;
+        bottom: 18px;
     }
-    .link-text-down {
-        top: 56px;
-        left: -25px;
-    }
+
     .link-text-left {
-        right: 60px;
-        bottom: -5px;
-        text-align: right;
+        bottom: 18px;
     }
 
     .footer-call {
-        right:  20%;
+        bottom: 120px;
+        right: 6%;
     }
 
+    .phonering-alo-ph-circle {
+        width: 140px;
+        height: 140px;
+    }
+
+    .phonering-alo-ph-circle-fill {
+        width: 80px;
+        height: 80px;
+    }
+
+    .phonering-alo-ph-img-circle {
+        width: 40px;
+        height: 40px;
+        background-size: 25px 25px;
+    }
+
+    .calltext {
+        bottom: 20%;
+        left: 20px;
+        width: 100px;
+        font-style: 0.8em;
+        font-weight: normal;
+        margin-bottom: -10px;
+    }
+    
 
 }
 
 
 @media (min-width: 768px) and (max-width: 992px) {
-    .top  .nav {
-
-    }
-
-    .home-container {
-        width: 60px;
-        height: 60px;
-    }
-
-    .plate {
-        width: 50px;
-        height: 50px;
-    }
-
-    .plate i {
-        width: 100%;
-        font-size: 1.3em;
-        line-height: 50px;
-    }
-
-    .link-text-right {
-        left: 60px;
-        bottom: -5px;
-    }
-
-    .link-text-down {
-        top: 60px;
-        left: -20px;
-    }
-
-    .link-text-left {
-        right: 60px;
-        bottom: -3px;
-        text-align: right;
-    }
-
-    .footer-call {
-        right:  20%;
-    }
+   
 }
 
 @media(max-width: 768px) {
 
-    .home-container {
-        width: 60px;
-        height: 60px;
-    }
-
-    .plate {
-        width: 50px;
-        height: 50px;
-    }
-
-    .plate i {
-        width: 100%;
-        font-size: 1.3em;
-        line-height: 50px;
-    }
-
-    .link-text-right {
-        left: 60px;
-        bottom: -5px;
-    }
-
-    .link-text-down {
-        top: 60px;
-        left: -20px;
-    }
-
-    .link-text-left {
-        right: 60px;
-        bottom: -3px;
-        text-align: right;
-    }
-
-    .footer-call {
-        right:  25%;
-    }
+   
 }
 
 @media (min-width: 576px) and (max-width: 767px) {
-    .home-container {
-        width: 55px;
-        height: 55px;
-    }
-
-    .plate {
-        width: 45px;
-        height: 45px;
-    }
-
-    .plate i {
-        width: 100%;
-        font-size: 1em;
-        line-height: 45px;
-    }
-
-    .link-text-right {
-        left: 60px;
-        bottom: -5px;
-    }
-
-    .link-text-down {
-        top: 60px;
-        left: -20px;
-    }
-
-    .link-text-left {
-        right: 60px;
-        bottom: -3px;
-        text-align: right;
-    }
-
-    .footer-call {
-        right:  30%;
-    }
+   
 
 }
 
