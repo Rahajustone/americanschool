@@ -10,6 +10,87 @@ Email: developermamunurrashid@gmail.com
         top: 5%;
         background-size: 70%;
     }
+
+    .home-container {
+
+    }
+
+    .plate {
+        width: 70px;
+        height: 70px;
+        opacity: 0;
+    }
+
+    .plate i {
+        font-size: 1.8em;
+    }
+    .home-container .plate:nth-of-type(1) {
+        top: -55%;
+        right: -85%;
+    }
+
+    .home-container .plate:nth-of-type(2) {
+        top: -6%;
+        right: -85%;
+    }
+
+    .home-container .plate:nth-of-type(3) {
+        top: 55%;
+        right: -70%;
+    }
+
+    .home-container .plate:nth-of-type(4) {
+        top: -55%;
+        left: -85%;
+    }
+
+    .home-container .plate:nth-of-type(5) {
+        top: -6%;
+        left: -85%;
+    }
+
+    .home-container .plate:nth-of-type(6) {
+        top: 55%;
+        left: -70%;
+    }
+
+    .link-text-right {
+        bottom: 18px;
+    }
+
+    .link-text-left {
+        bottom: 18px;
+    }
+
+    .footer-call {
+        bottom: 120px;
+        right: 6%;
+    }
+
+    .phonering-alo-ph-circle {
+        width: 140px;
+        height: 140px;
+    }
+
+    .phonering-alo-ph-circle-fill {
+        width: 80px;
+        height: 80px;
+    }
+
+    .phonering-alo-ph-img-circle {
+        width: 40px;
+        height: 40px;
+        background-size: 25px 25px;
+    }
+
+    .calltext {
+        bottom: 20%;
+        left: 20px;
+        width: 100px;
+        font-style: 0.8em;
+        font-weight: normal;
+        margin-bottom: -10px;
+    }
    
 }
 
