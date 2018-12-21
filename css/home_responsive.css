@@ -10,92 +10,21 @@ Email: developermamunurrashid@gmail.com
         top: 5%;
         background-size: 70%;
     }
-
-    .home-container {
-
-    }
-
-    .plate {
-        width: 70px;
-        height: 70px;
-        opacity: 0;
-    }
-
-    .plate i {
-        font-size: 1.8em;
-    }
     .home-container .plate:nth-of-type(1) {
-        top: -55%;
+        top: -75%;
         right: -85%;
     }
-
-    .home-container .plate:nth-of-type(2) {
-        top: -6%;
-        right: -85%;
-    }
-
-    .home-container .plate:nth-of-type(3) {
-        top: 55%;
-        right: -70%;
-    }
-
-    .home-container .plate:nth-of-type(4) {
-        top: -55%;
+   .home-container .plate:nth-of-type(4) {
+        top: -75%;
         left: -85%;
     }
-
-    .home-container .plate:nth-of-type(5) {
-        top: -6%;
-        left: -85%;
-    }
-
-    .home-container .plate:nth-of-type(6) {
-        top: 55%;
-        left: -70%;
-    }
-
-    .link-text-right {
-        bottom: 18px;
-    }
-
-    .link-text-left {
-        bottom: 18px;
-    }
-
-    .footer-call {
-        bottom: 120px;
-        right: 6%;
-    }
-
-    .phonering-alo-ph-circle {
-        width: 140px;
-        height: 140px;
-    }
-
-    .phonering-alo-ph-circle-fill {
-        width: 80px;
-        height: 80px;
-    }
-
-    .phonering-alo-ph-img-circle {
-        width: 40px;
-        height: 40px;
-        background-size: 25px 25px;
-    }
-
-    .calltext {
-        bottom: 20%;
-        left: 20px;
-        width: 100px;
-        font-style: 0.8em;
-        font-weight: normal;
-        margin-bottom: -10px;
-    }
-   
 }
 
 
 @media (min-width: 992px) and (max-width: 1199px) {
+    .question-part {
+        display: none;
+    }
     /* Navigation Bar */
     .top .col {
         padding: 0px;
@@ -103,10 +32,9 @@ Email: developermamunurrashid@gmail.com
     .top .nav {
         
     }
-
     .navbar-menu {
-        top: 5%;
-        background-size: 60%;
+        top: -5%;
+        background-size: 70%;
     }
     .home-container {
 
@@ -123,7 +51,7 @@ Email: developermamunurrashid@gmail.com
     }
     .home-container .plate:nth-of-type(1) {
         top: -55%;
-        right: -50%;
+        right: -60%;
     }
 
     .home-container .plate:nth-of-type(2) {
@@ -138,7 +66,7 @@ Email: developermamunurrashid@gmail.com
 
     .home-container .plate:nth-of-type(4) {
         top: -55%;
-        left: -50%;
+        left: -60%;
     }
 
     .home-container .plate:nth-of-type(5) {
