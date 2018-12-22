@@ -300,16 +300,21 @@ p {
 .section-heading > h2 {
     font-weight: 300;
     color: #25366e;
-    font-size: 2em;
+    font-size: 1.5em;
     margin: 0;
 }
 
 
 .section-heading {
     margin-bottom: 40px;
+    background-color: #fefefe;
+    border-left: 4px solid #25366e;
+    border-top: 1px solid #fafafa;
+    padding: 3%;
+
 }
 
-.line-shape-white,
+/*.line-shape-white,
 .line-shape {
     width: 80px;
     height: 2px;
@@ -318,8 +323,8 @@ p {
 }
 
 .line-shape {
-    margin-left: calc(50% - 40px);
-}
+    margin-left: calc(1%);
+}*/
 
 .table {
     display: table;
@@ -2706,7 +2711,13 @@ footer.footer-social-icon {
 
 }
 .top .col {
-    padding: 0px;
+    padding-top: 0px;
+    padding-bottom:  0px;
+    font-size: 1.3em;
+}
+.language-bar {
+    line-height: 1.5em;
+    margin-top: 5px;
 }
 .top .fa {
     background-color: transparent;
@@ -2721,6 +2732,13 @@ footer.footer-social-icon {
     background-color: transparent;
     padding-bottom: 0px;
 }
-.top .breadcrumb .breadcrumb-item a {
+.top .breadcrumb .breadcrumb-item  {
+}
+
+.top .breadcrumb .breadcrumb-item  a {
     color: #fff;
 }
+
+/*.top-style-every-page {
+    border-left-style: 2px solid rgb(37, 54, 110);
+}*/
