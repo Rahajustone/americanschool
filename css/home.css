@@ -208,14 +208,14 @@ body {
 .link-text-right {
     position: absolute;
     left: 80px;
-    bottom: 20px;
+    bottom: 5px;
     text-align: left;
 }
 
 .link-text-left {
     position: absolute;
     right: 80px;
-    bottom: 20px;
+    bottom: 5px;
     text-align: right;
 }
 
@@ -832,4 +832,15 @@ body {
 }
 .footer {
     background-color: #25366e;
+    /* margin-top: 20px; */
+}
+.footer p {
+  margin: 0px;
+}
+
+
+/* Modal */
+.modal-open .modal {
+    overflow-x: hidden;
+    overflow-y: hidden;
 }

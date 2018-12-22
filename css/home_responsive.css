@@ -30,7 +30,7 @@ Email: developermamunurrashid@gmail.com
         padding: 0px;
     }
     .top .nav {
-        
+
     }
     .navbar-menu {
         top: -5%;
@@ -79,13 +79,13 @@ Email: developermamunurrashid@gmail.com
         left: -70%;
     }
 
-    .link-text-right {
+    /* .link-text-right {
         bottom: 18px;
     }
 
     .link-text-left {
         bottom: 18px;
-    }
+    } */
 
     .footer-call {
         bottom: 120px;
@@ -116,7 +116,7 @@ Email: developermamunurrashid@gmail.com
         font-weight: normal;
         margin-bottom: -10px;
     }
-    
+
 
 }
 
@@ -179,13 +179,13 @@ Email: developermamunurrashid@gmail.com
         left: -55%;
     }
 
-    .link-text-right {
+    /* .link-text-right {
         bottom: 18px;
     }
 
     .link-text-left {
         bottom: 18px;
-    }
+    } */
 
     .footer-call {
         bottom: 120px;
@@ -255,7 +255,7 @@ Email: developermamunurrashid@gmail.com
     .instagram {
         margin-top: -10%;
     }
-   
+
 }
 
 @media (min-width: 576px) and (max-width: 767px) {
