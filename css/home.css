@@ -19,7 +19,14 @@ body {
 body {
 
 }
-
+.section-preview {
+    border: 1px solid #e0e0e0;
+    padding: 15px;
+}
+.bq-american {
+    border-left: 3px solid #25366e !important;
+    /*border-left: 3px solid rgb(243, 211, 150); !important;*/
+}
 .american-color {
     color: #25366e;
 }
@@ -35,7 +42,6 @@ body {
 }
 
 .top-breadcum .breadcrumb {
-    border-top: 1px solid #ccc;
     border-radius: 0px;
     background-color: transparent;
     padding-bottom: 0px;

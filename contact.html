@@ -43,22 +43,35 @@
     <link rel="stylesheet" href="css/home.css">
     <link href="./css/mdb.min.css" rel="stylesheet">
     <!-- <link href="./css/gradint-four.css" rel="stylesheet"> -->
-
+    <style>
+        .mapouter {
+            margin-top: 50px;
+            text-align:right;
+            /*height:500px;
+            width:600px;*/
+        }
+        .gmap_canvas {
+            overflow:hidden;
+            background:none!important;
+            /*height:500px;
+            width:600px;*/
+        }
+    </style>
 </head>
 
 <body>
-     <section class="top">
+    <section class="top">
         <div class="container-fluid">
             <div class="row">
-                <div class="col">
+                <!-- <div class="col">
                     <nav aria-label="breadcrumb">
                         <ol class="breadcrumb">
                             <li class="breadcrumb-item"><a href="index.html"> <i class="fa fa-home"></i> Home</a></li>
-                            <!-- <li class="breadcrumb-item"><a href="#">Library</a></li> -->
-                            <li class="breadcrumb-item text-white"  aria-current="page"><!-- <i class="fa fa-info-circle"></i> --> Gallery</li>
+                            <li class="breadcrumb-item"><a href="#">Library</a></li>
+                            <li class="breadcrumb-item text-white"  aria-current="page" Gallery</li>
                         </ol>
                     </nav>
-                </div>
+                </div> -->
                 <!-- <div class="clear-fix"></div> -->
                 <div class="col language-bar">
                     <ul class="nav justify-content-end">
@@ -73,89 +86,124 @@
             </div>
         </div>
     </section>
-<section style="background-image: url(https://mdbootstrap.com/img/Photos/Horizontal/Work/4-col/img%20%2814%29.jpg);">
-  <div class="container pd-5 my-5">
-    <div class="row pd-5 my-5">
-      <div class="col-md-6">
-        <div class="row text-center">
-          <div class="col-md-4">
-            <a class="btn-floating blue accent-1">
-              <i class="fa fa-map-marker"></i>
-            </a>
-            <p>Sirk, Dushanbe</p>
-            <!-- <p class="mb-md-0">United States</p> -->
-          </div>
-          <div class="col-md-4">
-            <a class="btn-floating blue accent-1">
-              <i class="fa fa-phone"></i>
-            </a>
-            <p>+ 01 234 567 89</p>
-            <p class="mb-md-0">Mon - Fri, 8:00-22:00</p>
-          </div>
-          <div class="col-md-4">
-            <a class="btn-floating blue accent-1">
-              <i class="fa fa-envelope"></i>
-            </a>
-            <p>info@gmail.com</p>
-            <p class="mb-0">sale@gmail.com</p>
-          </div>
+    <section class="custom-breadcum">
+        <div class="card card-image" style="background-image: url(images/bg-page.jpg);">
+            <div class="text-white text-center d-flex align-items-center rgba-black-strong">
+                <div class="container mt-5">
+                    <div class="row my-5 mx-0 ">
+                        <blockquote class="blockquote bq-american">
+                            <h1 class="note note-info"> КОНТАКТЫ</h1>
+                        </blockquote>
+                    </div>
+                    <div class="row mx-0">
+                        <div class="top-breadcum  mb-0 pb-0">
+                            <nav aria-label="breadcrumb">
+                                <ol class="breadcrumb">
+                                    <li class="breadcrumb-item"><a href="index.html"> <i class="fa fa-home"></i> Home</a></li>
+                                    <li class="breadcrumb-item text-white" aria-current="page">Контакты</li>
+                                </ol>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="row text-center">
-          <div class="col-md-4">
-            <a class="btn-floating blue accent-1">
-              <i class="fa fa-map-marker"></i>
-            </a>
-            <p>New York, 94126</p>
-            <p class="mb-md-0">United States</p>
-          </div>
-          <div class="col-md-4">
-            <a class="btn-floating blue accent-1">
-              <i class="fa fa-phone"></i>
-            </a>
-            <p>+ 01 234 567 89</p>
-            <p class="mb-md-0">Mon - Fri, 8:00-22:00</p>
-          </div>
-          <div class="col-md-4">
-            <a class="btn-floating blue accent-1">
-              <i class="fa fa-envelope"></i>
-            </a>
-            <p>info@gmail.com</p>
-            <p class="mb-0">sale@gmail.com</p>
-          </div>
+    </section>
+    <section class="mt-5">
+        <div class="container pd-5 my-5">
+            <div class="row pd-5 my-5">
+                <div class="col-md-6">
+                    <div class="row">
+                        <section class="col-md-12 section-preview my-5">
+                            <h3 class="">
+                                <strong>КОНТАКТНАЯ ИНФОРМАЦИЯ</strong>
+                            </h3>
+                        </section>
+                    </div>
+                    <div class="row text-left">
+                        <div class="col-md-12">
+                            <a class="btn-floating american-bg-color">
+                                <i class="fa fa-map-marker"></i>
+                            </a>
+                            Проспект Рудаки 100, город Душанбе, Таджикистан
+                            <!-- <p>Проспект Рудаки 100, город Душанбе, Таджикистан</p> -->
+                            <!-- <p class="mb-md-0">United States</p> -->
+                        </div>
+                        <div class="col-md-6 align-items-center ">
+                            <a class="btn-floating american-bg-color accent-1">
+                                <i class="fa fa-phone"></i>
+                            </a>
+                            +992 987-577776
+                        </div>
+                        <div class="col-md-6 align-items-center ">
+                            <a class="btn-floating american-bg-color accent-1">
+                                <i class="fa fa-envelope"></i>
+                            </a>
+                            info@gmail.com
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row text-left">
+                        <div class="col-md-12">
+                            <a class="btn-floating american-bg-color">
+                                <i class="fa fa-map-marker"></i>
+                            </a>
+                            Проспект Рудаки 100, город Душанбе, Таджикистан
+                            <!-- <p>Проспект Рудаки 100, город Душанбе, Таджикистан</p> -->
+                            <!-- <p class="mb-md-0">United States</p> -->
+                        </div>
+                        <div class="col-md-6 align-items-center ">
+                            <a class="btn-floating american-bg-color accent-1">
+                                <i class="fa fa-phone"></i>
+                            </a>
+                            +992 987-577776
+                        </div>
+                        <div class="col-md-6 align-items-center ">
+                            <a class="btn-floating american-bg-color accent-1">
+                                <i class="fa fa-envelope"></i>
+                            </a>
+                            info@gmail.com
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row text-left">
+                        <div class="col-md-12">
+                            <a class="btn-floating american-bg-color">
+                                <i class="fa fa-map-marker"></i>
+                            </a>
+                            Торговый центр "Гиссар" 3-й этаж, город Гиссар, Таджикистан
+                        </div>
+                        <div class="col-md-6 align-items-center ">
+                            <a class="btn-floating american-bg-color accent-1">
+                                <i class="fa fa-phone"></i>
+                            </a>
+                            +992 ‎915-577776
+                        </div>
+                        <div class="col-md-6 align-items-center ">
+                            <a class="btn-floating american-bg-color accent-1">
+                                <i class="fa fa-envelope"></i>
+                            </a>
+                            info@gmail.com
+                        </div>
+                    </div>
+                    <hr>
+                </div>
+                <div class="col-md-6 my-5">
+                    <section class="section-preview">
+                        <h3 class="text-uppercase">
+                            <strong>наша аддресс в карта</strong>
+                        </h3>
+                    </section>
+                    <div class="mapouter">
+                        <div class="gmap_canvas">
+                            <iframe width="600" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=american%20school%20tajikistna%20&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
+                            </iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="row text-center">
-          <div class="col-md-4">
-            <a class="btn-floating blue accent-1">
-              <i class="fa fa-map-marker"></i>
-            </a>
-            <p>New York, 94126</p>
-            <p class="mb-md-0">United States</p>
-          </div>
-          <div class="col-md-4">
-            <a class="btn-floating blue accent-1">
-              <i class="fa fa-phone"></i>
-            </a>
-            <p>+ 01 234 567 89</p>
-            <p class="mb-md-0">Mon - Fri, 8:00-22:00</p>
-          </div>
-          <div class="col-md-4">
-            <a class="btn-floating blue accent-1">
-              <i class="fa fa-envelope"></i>
-            </a>
-            <p>info@gmail.com</p>
-            <p class="mb-0">sale@gmail.com</p>
-          </div>
-        </div>
-
-      </div>
-
-    </div>
-  </div>
-
-</section>
-
-
-
+    </section>
     <!--=====================About us end========================-->
     <!-- =============== Footer Area Start ======================== -->
     <footer class="footer-social-icon text-center section_padding_70">
