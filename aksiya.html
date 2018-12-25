@@ -43,27 +43,43 @@
     <link rel="stylesheet" href="css/home.css">
     <link href="./css/mdb.min.css" rel="stylesheet">
     <!-- <link href="./css/gradint-four.css" rel="stylesheet"> -->
-
 </head>
 
 <body>
-     <section class="top">
+    <section class="top" style="z-index: 1;">
         <div class="container-fluid">
             <div class="row">
-                <div class="col">
-                    <nav aria-label="breadcrumb">
-                        <ol class="breadcrumb">
-                            <li class="breadcrumb-item"><a href="index.html"> <i class="fa fa-home"></i> Home</a></li>
-                            <!-- <li class="breadcrumb-item"><a href="#">Library</a></li> -->
-                            <li class="breadcrumb-item text-white"  aria-current="page"><!-- <i class="fa fa-info-circle"></i> --> Gallery</li>
-                        </ol>
-                    </nav>
+                <div class="col col-md-2">
+                    <ul class="nav">
+                        <li class="nav-item">
+                            <a class="nav-link sociallink" href="#"><i class="fa fa-facebook american-color fa-fw"></i></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link sociallink instagram" href="#"><i class="fa fa-instagram  fa-fw"></i></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="d-none d-md-block col-md-8">
+                    <ul class="nav justify-content-center question-part">
+                        <li class="nav-item">
+                            <a class="nav-link text-white text-question" href="#">Есть вопросы?</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#"><i class="fa fa-phone"> </i>&nbsp; +992 987 57 77 76</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#"><i class="fa fa-phone"> </i>&nbsp; 223 03 73</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#"><i class="fa fa-envelope"> </i>&nbsp; info@americanschool.tj</a>
+                        </li>
+                    </ul>
                 </div>
                 <!-- <div class="clear-fix"></div> -->
-                <div class="col language-bar">
-                    <ul class="nav justify-content-end">
+                <div class="col col-md-2">
+                    <ul class="nav justify-content-end text-right">
                         <li class="nav-item">
-                            <a class="nav-link text-white active" href="#"><i class="flag-icon flag-icon-us"></i> EN</a>
+                            <a class="nav-link text-white" href="#"><i class="flag-icon flag-icon-us"></i> EN</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link text-white" href="#"><i class="flag-icon flag-icon-ru"></i>  RU</a>
@@ -73,148 +89,143 @@
             </div>
         </div>
     </section>
+    <!-- Bread crumb -->
+    <section class="custom-breadcum">
+        <div class="card card-image" style="background-image: url(images/bg-page.jpg);">
+            <div class="text-white text-center d-flex align-items-center rgba-black-strong">
+                <div class="container mt-5">
+                    <div class="row my-5 mx-0 ">
+                        <blockquote class="blockquote bq-american">
+                            <h1 class="note note-info"> Aksiya</h1>
+                        </blockquote>
+                    </div>
+                    <div class="row mx-0">
+                        <div class="top-breadcum  mb-0 pb-0">
+                            <nav aria-label="breadcrumb">
+                                <ol class="breadcrumb">
+                                    <li class="breadcrumb-item"><a href="index.html"> <i class="fa fa-home"></i> Home</a></li>
+                                    <li class="breadcrumb-item text-white" aria-current="page">Aksiya</li>
+                                </ol>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
     <div class="container pd-5 my-5">
         <div class="row pd-5 my-5">
-          <!-- Section: Blog v.1 -->
-<section class="my-5">
-
-  <!-- Section heading -->
-  <h2 class="h1-responsive font-weight-bold text-center my-5">Recent posts</h2>
-  <!-- Section description -->
-  <p class="text-center w-responsive mx-auto mb-5">Duis aute irure dolor in reprehenderit in voluptate velit
-    esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa
-    qui officia deserunt mollit anim id est laborum.</p>
-
-  <!-- Grid row -->
-  <div class="row">
-
-    <!-- Grid column -->
-    <div class="col-lg-5">
-
-      <!-- Featured image -->
-      <div class="view overlay rounded z-depth-2 mb-lg-0 mb-4">
-        <img class="img-fluid" src="https://mdbootstrap.com/img/Photos/Others/img%20(27).jpg" alt="Sample image">
-        <a>
+            <!-- Section: Blog v.1 -->
+            <section class="my-5">
+                <!-- Section heading -->
+                <h2 class="h1-responsive font-weight-bold text-center my-5">Recent posts</h2>
+                <!-- Section description -->
+                <p class="text-center w-responsive mx-auto mb-5">Duis aute irure dolor in reprehenderit in voluptate velit
+                    esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa
+                    qui officia deserunt mollit anim id est laborum.</p>
+                <!-- Grid row -->
+                <div class="row">
+                    <!-- Grid column -->
+                    <div class="col-lg-5">
+                        <!-- Featured image -->
+                        <div class="view overlay rounded z-depth-2 mb-lg-0 mb-4">
+                            <img class="img-fluid" src="https://mdbootstrap.com/img/Photos/Others/img%20(27).jpg" alt="Sample image">
+                            <a>
           <div class="mask rgba-white-slight"></div>
         </a>
-      </div>
-
-    </div>
-    <!-- Grid column -->
-
-    <!-- Grid column -->
-    <div class="col-lg-7">
-
-      <!-- Category -->
-      <a href="#!" class="green-text">
+                        </div>
+                    </div>
+                    <!-- Grid column -->
+                    <!-- Grid column -->
+                    <div class="col-lg-7">
+                        <!-- Category -->
+                        <a href="#!" class="green-text">
         <h6 class="font-weight-bold mb-3"><i class="fa fa-utensils pr-2"></i>Food</h6>
       </a>
-      <!-- Post title -->
-      <h3 class="font-weight-bold mb-3"><strong>Title of the news</strong></h3>
-      <!-- Excerpt -->
-      <p>Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime
-        placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus et aut officiis debitis.</p>
-      <!-- Post data -->
-      <p>by <a><strong>Carine Fox</strong></a>, 19/08/2018</p>
-      <!-- Read more button -->
-      <a class="btn btn-success btn-md">Read more</a>
-
-    </div>
-    <!-- Grid column -->
-
-  </div>
-  <!-- Grid row -->
-
-  <hr class="my-5">
-
-  <!-- Grid row -->
-  <div class="row">
-
-    <!-- Grid column -->
-    <div class="col-lg-7">
-
-      <!-- Category -->
-      <a href="#!" class="pink-text">
+                        <!-- Post title -->
+                        <h3 class="font-weight-bold mb-3"><strong>Title of the news</strong></h3>
+                        <!-- Excerpt -->
+                        <p>Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime
+                            placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus et aut officiis debitis.</p>
+                        <!-- Post data -->
+                        <p>by <a><strong>Carine Fox</strong></a>, 19/08/2018</p>
+                        <!-- Read more button -->
+                        <a class="btn btn-success btn-md">Read more</a>
+                    </div>
+                    <!-- Grid column -->
+                </div>
+                <!-- Grid row -->
+                <hr class="my-5">
+                <!-- Grid row -->
+                <div class="row">
+                    <!-- Grid column -->
+                    <div class="col-lg-7">
+                        <!-- Category -->
+                        <a href="#!" class="pink-text">
         <h6 class="font-weight-bold mb-3"><i class="fa fa-image pr-2"></i>Lifestyle</h6>
       </a>
-      <!-- Post title -->
-      <h3 class="font-weight-bold mb-3"><strong>Title of the news</strong></h3>
-      <!-- Excerpt -->
-      <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum
-        deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non
-        provident.</p>
-      <!-- Post data -->
-      <p>by <a><strong>Carine Fox</strong></a>, 14/08/2018</p>
-      <!-- Read more button -->
-      <a class="btn btn-pink btn-md mb-lg-0 mb-4">Read more</a>
-
-    </div>
-    <!-- Grid column -->
-
-    <!-- Grid column -->
-    <div class="col-lg-5">
-
-      <!-- Featured image -->
-      <div class="view overlay rounded z-depth-2">
-        <img class="img-fluid" src="https://mdbootstrap.com/img/Photos/Others/img%20(34).jpg" alt="Sample image">
-        <a>
+                        <!-- Post title -->
+                        <h3 class="font-weight-bold mb-3"><strong>Title of the news</strong></h3>
+                        <!-- Excerpt -->
+                        <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum
+                            deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non
+                            provident.</p>
+                        <!-- Post data -->
+                        <p>by <a><strong>Carine Fox</strong></a>, 14/08/2018</p>
+                        <!-- Read more button -->
+                        <a class="btn btn-pink btn-md mb-lg-0 mb-4">Read more</a>
+                    </div>
+                    <!-- Grid column -->
+                    <!-- Grid column -->
+                    <div class="col-lg-5">
+                        <!-- Featured image -->
+                        <div class="view overlay rounded z-depth-2">
+                            <img class="img-fluid" src="https://mdbootstrap.com/img/Photos/Others/img%20(34).jpg" alt="Sample image">
+                            <a>
           <div class="mask rgba-white-slight"></div>
         </a>
-      </div>
-
-    </div>
-    <!-- Grid column -->
-
-  </div>
-  <!-- Grid row -->
-
-  <hr class="my-5">
-
-  <!-- Grid row -->
-  <div class="row">
-
-    <!-- Grid column -->
-    <div class="col-lg-5">
-
-      <!-- Featured image -->
-      <div class="view overlay rounded z-depth-2 mb-lg-0 mb-4">
-        <img class="img-fluid" src="https://mdbootstrap.com/img/Photos/Others/img (28).jpg" alt="Sample image">
-        <a>
+                        </div>
+                    </div>
+                    <!-- Grid column -->
+                </div>
+                <!-- Grid row -->
+                <hr class="my-5">
+                <!-- Grid row -->
+                <div class="row">
+                    <!-- Grid column -->
+                    <div class="col-lg-5">
+                        <!-- Featured image -->
+                        <div class="view overlay rounded z-depth-2 mb-lg-0 mb-4">
+                            <img class="img-fluid" src="https://mdbootstrap.com/img/Photos/Others/img (28).jpg" alt="Sample image">
+                            <a>
           <div class="mask rgba-white-slight"></div>
         </a>
-      </div>
-
-    </div>
-    <!-- Grid column -->
-
-    <!-- Grid column -->
-    <div class="col-lg-7">
-
-      <!-- Category -->
-      <a href="#!" class="indigo-text">
+                        </div>
+                    </div>
+                    <!-- Grid column -->
+                    <!-- Grid column -->
+                    <div class="col-lg-7">
+                        <!-- Category -->
+                        <a href="#!" class="indigo-text">
         <h6 class="font-weight-bold mb-3"><i class="fa fa-suitcase pr-2"></i>Travels</h6>
       </a>
-      <!-- Post title -->
-      <h3 class="font-weight-bold mb-3"><strong>Title of the news</strong></h3>
-      <!-- Excerpt -->
-      <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur
-        magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro qui dolorem ipsum quia sit amet.</p>
-      <!-- Post data -->
-      <p>by <a><strong>Carine Fox</strong></a>, 11/08/2018</p>
-      <!-- Read more button -->
-      <a class="btn btn-indigo btn-md">Read more</a>
-
-    </div>
-    <!-- Grid column -->
-
-  </div>
-  <!-- Grid row -->
-
-</section>
-<!-- Section: Blog v.1 -->
+                        <!-- Post title -->
+                        <h3 class="font-weight-bold mb-3"><strong>Title of the news</strong></h3>
+                        <!-- Excerpt -->
+                        <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur
+                            magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro qui dolorem ipsum quia sit amet.</p>
+                        <!-- Post data -->
+                        <p>by <a><strong>Carine Fox</strong></a>, 11/08/2018</p>
+                        <!-- Read more button -->
+                        <a class="btn btn-indigo btn-md">Read more</a>
+                    </div>
+                    <!-- Grid column -->
+                </div>
+                <!-- Grid row -->
+            </section>
+            <!-- Section: Blog v.1 -->
         </div>
     </div>
-
     <!--=====================About us end========================-->
     <!-- =============== Footer Area Start ======================== -->
     <footer class="footer-social-icon text-center section_padding_70">
